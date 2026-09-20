@@ -12,6 +12,7 @@ void MqttManager::begin(const Config &newConfig) {
     mqttClient.setKeepAlive(config.keepAliveSeconds);
     mqttClient.setSocketTimeout(config.socketTimeoutSeconds);
     mqttClient.setCallback(&MqttManager::staticCallback);
+    mqttClient.setBufferSize(2048);
 
     // Force loop() to attempt an immediate connection on the next call.
     lastReconnectAttemptMs = 0;
