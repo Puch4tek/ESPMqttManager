@@ -5,14 +5,19 @@
   "keywords": ["mqtt", "esp32", "esp8266", "pubsubclient"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakub/EspMqttManager.git"
+    "url": "https://github.com/Puch4tek/ESPMqttManager.git"
   },
+  "authors": [
+    {
+      "name": "Puch4tek",
+      "email": "puchatek@zigp.pl",
+      "url": "https://github.com/Puch4tek",
+      "maintainer": true
+    }
+  ],
   "frameworks": "arduino",
   "platforms": ["espressif32", "espressif8266"],
   "dependencies": {
     "knolleary/PubSubClient": "^2.8"
-  },
-  "build": {
-    "srcDir": "src"
   }
 }
