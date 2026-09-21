@@ -1,6 +1,6 @@
 {
-  "name": "ESPMqttManager",
-  "version": "0.1.2",
+  "name": "EspMqttManager",
+  "version": "0.2.0",
   "description": "A lightweight manager over PubSubClient that simplifies MQTT connection handling, automatic reconnection, and subscription/callback management with auto resubscribe.",
   "keywords": ["mqtt", "esp32", "esp8266", "pubsubclient"],
   "repository": {
@@ -14,8 +14,14 @@
       "maintainer": true
     }
   ],
-  "frameworks": "arduino",
-  "platforms": ["espressif32", "espressif8266"],
+  "frameworks": [
+    "arduino"
+  ],
+  "license": "MIT",
+  "platforms": [
+    "espressif32",
+    "espressif8266"
+  ],
   "dependencies": {
     "knolleary/PubSubClient": "^2.8"
   }

@@ -43,11 +43,11 @@ lib_deps =
     https://github.com/Puch4tek/ESPMqttManager.git
 ```
 
-Or, once published to the PlatformIO registry:
+Or, using the Platform IO registry:
 
 ```ini
 lib_deps =
-    EspMqttManager
+    puchatek/EspMqttManager
 ```
 
 `PubSubClient` (`knolleary/PubSubClient@^2.8`) is declared as a dependency and will be installed automatically.
