@@ -1,5 +1,5 @@
 {
-  "name": "EspMqttManager",
+  "name": "ESPMqttManager",
   "version": "0.1.0",
   "description": "A lightweight manager over PubSubClient that simplifies MQTT connection handling, automatic reconnection, and subscription/callback management with auto resubscribe.",
   "keywords": ["mqtt", "esp32", "esp8266", "pubsubclient"],
